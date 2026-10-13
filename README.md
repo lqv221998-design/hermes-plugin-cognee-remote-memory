@@ -10,6 +10,8 @@ Capabilities → Plugins → Install plugin → nhập URL → **Review reposito
 
 ## Điều kiện và ranh giới
 
+**Cổng chưa đạt trên host Windows đã kiểm:** native Electron review/probe và Desktop installer từ remote PASS (đúng bytes, unified marker, no-overwrite), nhưng native Agent CLI installer bị `WinError 5: Access is denied` khi publish/rename thư mục staged. Vì vậy chưa được tuyên bố cài hoàn chỉnh cả hai half chỉ từ URL trên host này, hoặc mọi máy nhận đều cài một lần thành công. Đây là lỗi tại host publication seam; nguyên nhân chưa xác định, không patch Hermes core/registry hay Force reinstall để vượt. Giữ pre-release; máy gặp lỗi cần giữ log và kiểm host installer, không chỉ bật UI hoặc nhập key để che lỗi Agent.
+
 - Hermes Desktop có native repository installer, Git hoạt động và mạng GitHub. Dependency FastAPI (`>=0.115,<1`) khai báo để PM giải quyết sau consent; client không cần Cognee SDK/server, Docker, MCP, Chrome hay Node/npm riêng cho plugin.
 - Bật Agent + Desktop trong inventory **Cognee Memory** sau review. Form mở từ sidebar hoặc command palette. Backend mới cần reload lúc rảnh nếu chưa mount; không kill lượt đang chạy.
 - Mỗi người nhập URL HTTPS Cognee API, key ordinary active user của mình, chọn Brain và xác nhận egress/provider. Link GitHub chỉ cài mã, không cấp quyền Brain hay tự kết nối. Không có credential hay config tác giả trong repo.

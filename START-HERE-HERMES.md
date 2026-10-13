@@ -24,6 +24,8 @@ Trong chat có thể dùng: **“Nạp cognee-remote-memory:setup và hướng d
 
 ## Troubleshooting
 
+Known host gate: actual native Desktop remote probe/install PASS; native Agent CLI install trên host Windows thử riêng bị WinError 5 khi rename/publish staged tree. Chưa nghiệm thu full native install hai half trên host đó. Nếu máy nhận gặp lỗi này: giữ nguyên bản đang chạy, giữ log/exact build/profile; không Force reinstall, core/registry patch, tự copy file vào installed để gọi native PASS. Repo/Doctor/fixture green không giải quyết lỗi host. Phát hành pre-release, không hứa mọi máy chỉ một link là cài thành công.
+
 HTTP400 generic: kiểm write Brain khi capture=true, selection đã lưu, consent, ACL và writer conflict; không mặc định key sai. HTTP404: kiểm Agent enabled/router/runtime/profile, không nhập key lặp lại. TLS/network refusal: nhờ Admin/IT sửa đúng truy cập/certificate, không insecure fallback. Không reinstall để sửa ACL/config.
 
 Cài/enable, UI loaded, auth connection, Brain selection, provider activation và real memory acceptance là các bước riêng. Plugin không tự cấp quyền, tạo Brain hoặc provision server. Hướng dẫn không cam kết mọi máy/OS đã được kiểm.
