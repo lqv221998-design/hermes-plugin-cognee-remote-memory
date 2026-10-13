@@ -1,0 +1,20 @@
+// Real installed Electron resolver/probe/installer. No production profile writes.
+import assert from 'node:assert/strict';
+import {pathToFileURL,fileURLToPath} from 'node:url';
+import path from 'node:path';
+import fs from 'node:fs/promises';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const modulePath=process.env.HERMES_NATIVE_PLUGIN_DETECTOR,git=process.env.HERMES_TEST_GIT;
+assert.ok(modulePath&&git&&process.env.TMPDIR,'Supply installed host detector, Git and managed scratch.');
+const native=await import(pathToFileURL(modulePath).href);
+const identifier=process.argv[2]||'https://github.com/lqv221998-design/hermes-plugin-cognee-remote-memory';
+assert.deepEqual(native.resolvePluginGitUrl(identifier),{gitUrl:identifier,subdir:null});
+const detected=await native.detectPluginComponents(root);
+assert.equal(detected.agent,true);assert.equal(detected.agentName,'cognee-remote-memory');assert.equal(detected.desktop,true);assert.equal(detected.desktopSourceSubdir,'desktop');
+const probe=await native.probePluginRepo(git,identifier);assert.equal(probe.ok,true,JSON.stringify(probe));assert.equal(probe.agent,true);assert.equal(probe.desktop,true);
+const target=await fs.mkdtemp(path.join(process.env.TMPDIR,'cognee-recipient-desktop-'));
+const install=await native.installDesktopPluginFromGit(git,identifier,target,false);assert.equal(install.ok,true,JSON.stringify(install));
+const actual=path.join(install.path,'plugin.js');assert.deepEqual(await fs.readFile(actual),await fs.readFile(path.join(root,'desktop/plugin.js')));
+const marker=JSON.parse(await fs.readFile(path.join(install.path,'.hermes-package.json'),'utf8'));assert.equal(marker.package,'cognee-remote-memory');
+const before=await fs.readFile(actual),again=await native.installDesktopPluginFromGit(git,identifier,target,false);assert.equal(again.ok,false);assert.deepEqual(await fs.readFile(actual),before);
+console.log(JSON.stringify({detected,probe,install,desktopBytesExact:true,unifiedMarker:true,noOverwrite:true,physicalRecipientUiTested:false}));
