@@ -1,0 +1,226 @@
+{
+  "repo": "https://github.com/topoteretes/cognee-integrations",
+  "commit": "5eb4fe9e0054f9934d0a40353129ea07ba70bc93",
+  "upstream_version": "1.3.1",
+  "fork_version": "0.1.1",
+  "snapshot_at": "2026-10-13T10:41:36.718533+07:00",
+  "files": [
+    {
+      "path": "upstream/.env.example",
+      "sha256": "acd0549273393c2a47e3b194ba2c843fd780a02aed974c1e1a23c801b57a1bd5"
+    },
+    {
+      "path": "upstream/.gitignore",
+      "sha256": "5e14751b3cc11e288ccc04fe8a4547e130b886d3dde4aa8c00527fe7e4167910"
+    },
+    {
+      "path": "upstream/.python-version",
+      "sha256": "2c6bb7b4a0cc70e45e866dc579bec9f0b5c843c42fd6ed7391df7f5cd7859f14"
+    },
+    {
+      "path": "upstream/__init__.py",
+      "sha256": "e86476271ae9fe7f5c960bf0c18cf05ec3adbffdb0e1c9274721695a4714beac"
+    },
+    {
+      "path": "upstream/after-install.md",
+      "sha256": "6416f1f86df65c59a7d13f39ade5b4564fb6dda1f3a3671a1725c3c092d19012"
+    },
+    {
+      "path": "upstream/CHANGELOG.md",
+      "sha256": "557ff786df551f538e4233fda2d18a281f8c4b556605651be9f4f9afc8cc7a25"
+    },
+    {
+      "path": "upstream/cli.py",
+      "sha256": "c778c942d5e2f312957834eb5157d69c6f11d87f48e8a02d22cad634394cb3c5"
+    },
+    {
+      "path": "cognee_integration_hermes/__init__.py",
+      "sha256": "a8461bef1fdf488a568b3efff2bdbcfdc1eed557c0ca13e9906528fd8a38aa5b"
+    },
+    {
+      "path": "cognee_integration_hermes/_plugin_root/after-install.md",
+      "sha256": "6416f1f86df65c59a7d13f39ade5b4564fb6dda1f3a3671a1725c3c092d19012"
+    },
+    {
+      "path": "cognee_integration_hermes/_plugin_root/cli.py",
+      "sha256": "c778c942d5e2f312957834eb5157d69c6f11d87f48e8a02d22cad634394cb3c5"
+    },
+    {
+      "path": "cognee_integration_hermes/_plugin_root/plugin.yaml",
+      "sha256": "509bf958b347ceed4f8f2367e9b0cfb0f577ff0d4ed0fd236b1746ca96d24ea4"
+    },
+    {
+      "path": "cognee_integration_hermes/_plugin_root/plugin_init.py",
+      "sha256": "e86476271ae9fe7f5c960bf0c18cf05ec3adbffdb0e1c9274721695a4714beac"
+    },
+    {
+      "path": "cognee_integration_hermes/backend.py",
+      "sha256": "e6c763bf2b6d1277295e1d94b40f3df27357f9c2ad2e88dd57229c8f7575e212"
+    },
+    {
+      "path": "cognee_integration_hermes/catalog.py",
+      "sha256": "7b16b60fc32c9de0ec7d7a07ac249929f336dfa6cc243df58052a2d3c0c0e7b1"
+    },
+    {
+      "path": "cognee_integration_hermes/cli.py",
+      "sha256": "1c8aefdef6368908f159ddb4031a42457e75ff1dfc386ce66b1552ae789ded67"
+    },
+    {
+      "path": "cognee_integration_hermes/code_graph.py",
+      "sha256": "f2ff932922e9ec65b2d300e39e631aa6084d2fb2053e40d9197c4f85fe6e5f5f"
+    },
+    {
+      "path": "cognee_integration_hermes/config.py",
+      "sha256": "6add4ce220be2c66217fd934ec8338905a389b7d23219777d9ae67bd8a76ea96"
+    },
+    {
+      "path": "cognee_integration_hermes/dataset_overrides.py",
+      "sha256": "1b3357df513cba66a558b41d19136627bce8864f94705933b742fe8d39f5ea8b"
+    },
+    {
+      "path": "cognee_integration_hermes/exit_watcher.py",
+      "sha256": "61a8136d7f33d04697021a8301fc0c416176133153b09288758eec337d03e084"
+    },
+    {
+      "path": "cognee_integration_hermes/http_backend.py",
+      "sha256": "002003af9a3cbd41e7b8c67aef93c35f8edc46a2f330102e81d9856316499deb"
+    },
+    {
+      "path": "cognee_integration_hermes/installer.py",
+      "sha256": "5b79993e38951b0b93c4242dcb39e5b35a02a83da1a817b2020e908f8c26bb5a"
+    },
+    {
+      "path": "cognee_integration_hermes/provider.py",
+      "sha256": "9ce367c88219298faba21aa14a807380ebc211494437cbb8592fef36902fbd13"
+    },
+    {
+      "path": "cognee_integration_hermes/schemas.py",
+      "sha256": "bad45b2a6e48d939729937e4acdd0ab6d1ceb054b148ca900ae7b05399a0eb0f"
+    },
+    {
+      "path": "cognee_integration_hermes/server_bootstrap.py",
+      "sha256": "fb32507c6c2c24ce0e315a2b590f763433cdbbbc80933e918c6793a93c6a6cbe"
+    },
+    {
+      "path": "cognee_integration_hermes/update_check.py",
+      "sha256": "88b2c147ab00e41c2fed80cd2cc499a9587667386f50a263dd344dc31e1a5cdc"
+    },
+    {
+      "path": "upstream/plugin.yaml",
+      "sha256": "509bf958b347ceed4f8f2367e9b0cfb0f577ff0d4ed0fd236b1746ca96d24ea4"
+    },
+    {
+      "path": "upstream/pyproject.toml",
+      "sha256": "5436c4a87dae62088309c26040b2e3c09746bf92b9ebd2b16daae6a34c1f6962"
+    },
+    {
+      "path": "upstream/README.md",
+      "sha256": "6070a8ef4fa09b0f92955d49d0e6ed653e951c100e8648052fc4550efabd257e"
+    },
+    {
+      "path": "upstream/RUNBOOK.md",
+      "sha256": "62db1e3bc8ee19d657518c31ae963925fe390c86fbe9527cb57da727268bef28"
+    },
+    {
+      "path": "upstream/tests/_char_helpers.py",
+      "sha256": "6ae448a46bb5cce99852b3c4c6ad5eceebedf29d44246e5ab2a73d7743813ea3"
+    },
+    {
+      "path": "upstream/tests/conftest.py",
+      "sha256": "74b1c977189f948f1a40314c60c7f49a23ebb43fbfd1aa66ace1acc2a4f2ed40"
+    },
+    {
+      "path": "upstream/tests/test_catalog_install.py",
+      "sha256": "5b695c2e55bb5d768f74d1227ec5793795774751311724ef8969a3a8aabbb850"
+    },
+    {
+      "path": "upstream/tests/test_code_graph.py",
+      "sha256": "7ef3f93dc6d676517162be84fcf87533002dfcef06042dd9afab6fe076a51a2f"
+    },
+    {
+      "path": "upstream/tests/test_config_contract.py",
+      "sha256": "0bddc47509de1a0aadec159ac20e7f5fecc67c5a50afe862c5beb789287ac052"
+    },
+    {
+      "path": "upstream/tests/test_dataset_name_conformance.py",
+      "sha256": "58096c019a555419575e5225cfd043c5d5f49cb59dfcc7782da7401c7ae3a8da"
+    },
+    {
+      "path": "upstream/tests/test_dim_mismatch.py",
+      "sha256": "d52d255069892d107d20d9501812afccdfbe47ae1707b33d22278d6cee3eecc2"
+    },
+    {
+      "path": "upstream/tests/test_exit_watcher.py",
+      "sha256": "ffd6761dafa366a6589ecd2891d1fc310aeceb04cd7b623ea0a0f7279085f842"
+    },
+    {
+      "path": "upstream/tests/test_http_backend.py",
+      "sha256": "8af4628a78c9b8b9df58dd3a3019548ea0a9f657873ca927c2f7aa3b642f6859"
+    },
+    {
+      "path": "upstream/tests/test_installer.py",
+      "sha256": "9ddccde2be8ff0dfef7533bacb418fb2846eb3adc2529a3fe40faf0b31a288dd"
+    },
+    {
+      "path": "upstream/tests/test_integration_concurrency.py",
+      "sha256": "5aab3eaef4fa73d69404370a68a930a61695d573bb1e6346a9db697686daa582"
+    },
+    {
+      "path": "upstream/tests/test_integration_roundtrip.py",
+      "sha256": "ce38fd664c3de0d1d99e80e226e2661dbdd5684615d598c8be09a522c0ce92d2"
+    },
+    {
+      "path": "upstream/tests/test_layered_recall.py",
+      "sha256": "938a73c8c1de579cb0081386de0e00ae6da8cb49f7eda5f4ec345ea3bc87b48e"
+    },
+    {
+      "path": "upstream/tests/test_lifecycle_contract.py",
+      "sha256": "98113b865e200b2ec0546222dcee54a0e032835e489f14a383d97c0c639829cc"
+    },
+    {
+      "path": "upstream/tests/test_overflow_hint.py",
+      "sha256": "7f170b6721e341eaf4b8d6c414c8c73eec631c782f2b9038bbcc39049ab46e3a"
+    },
+    {
+      "path": "upstream/tests/test_recall_result_text.py",
+      "sha256": "3eb109535f11b64fced8011c2230a642d9d2a3c8572edb059957bc72faef7358"
+    },
+    {
+      "path": "upstream/tests/test_recall_wire_contract.py",
+      "sha256": "3c9c9298bb8f85941fdd6d39bca2124351a25e3cd9cda31c3ccda664efb42fb3"
+    },
+    {
+      "path": "upstream/tests/test_sdk_backend.py",
+      "sha256": "28c1d53a90e9fe3fe005f426b8c1bb7f8748c832cf719b9d7ef408366c8273bc"
+    },
+    {
+      "path": "upstream/tests/test_server_mode.py",
+      "sha256": "884dd43651bde096166ce4daf0f3665c120a250a7f0782dc5d6fcf72d2f93b78"
+    },
+    {
+      "path": "upstream/tests/test_session_id_conformance.py",
+      "sha256": "cf1a38c853011029109cd92890fdd9fb3fab67089b753587680693ba8994a015"
+    },
+    {
+      "path": "upstream/tests/test_smoke.py",
+      "sha256": "48a6995e7abcc86526149c789d514935742a5417fb4f18c9d49a5babbca967a9"
+    },
+    {
+      "path": "upstream/tests/test_switch_and_code_tools.py",
+      "sha256": "9ecb4bdc76e10b6af256a001bfd2f240708eebbeb49df6ddb8236fd1c2953860"
+    },
+    {
+      "path": "upstream/tests/test_tool_contract.py",
+      "sha256": "b482894e8ee736f8b7a2530924d36fb1a3d12b25657a0f5cbd819b04fa1baef3"
+    },
+    {
+      "path": "upstream/tests/test_update_check.py",
+      "sha256": "9c72cf22f65196d8dc9ccb56cf105196273362252098fea2376a3d67daa6ef66"
+    },
+    {
+      "path": "upstream/uv.lock",
+      "sha256": "3db32e2a4883f9eeee5879ef4a381f4ff1b8f275377e858850da687be5e3a2f7"
+    }
+  ],
+  "note": "Unchanged vendored upstream Python package; custom wrapper implements remote-only UUID policy and durable capture. No GitHub fork or commit/push."
+}

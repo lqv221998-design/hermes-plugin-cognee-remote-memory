@@ -1,0 +1,6 @@
+name: cognee-remote-memory
+kind: exclusive
+version: 0.1.1
+description: "Remote-only Cognee memory: Hybrid recall, UUID Brain selection, durable outbox and native Desktop setup."
+python_dependencies:
+  - "fastapi>=0.115,<1"
