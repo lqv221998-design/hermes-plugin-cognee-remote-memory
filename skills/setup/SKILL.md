@@ -21,6 +21,7 @@ Chỉ xử lý profile/backend người dùng chọn. Không dùng key, đườn
 - Xác nhận thay external provider rồi Bật Cognee Memory, mở session mới. Nếu writer cũ enabled: dừng và hỏi lựa chọn migration; không tự tắt Admin hoặc chạy hai writer. Local Hermes history vẫn tồn tại.
 
 ## Chẩn đoán / nghiệm thu
+Known Windows host gate: actual Electron remote Desktop install passed; native Agent CLI publish/rename failed WinError 5 trong isolated target. Root layout/Doctor pass chưa chứng minh cả hai half install. Nếu gặp gate này, giữ source/installed state/log, báo pending host installer; không force/core-patch/registry-edit hoặc manual-copy rồi gọi native PASS. Nguyên nhân chưa xác định; physical recipient acceptance vẫn riêng.
 Load cognee-remote-memory:using. Dùng host Doctor/validator nếu cần, kiểm profile/config/connection/selected Brains/new-session provider riêng. HTTP400 generic không chứng minh key sai: kiểm destination, consent, ACL, writer conflict. 404 router cần đúng enable/runtime, không nhập key lặp lại.
 
 Chỉ nhớ/truy vấn thử khi người dùng cho phép đúng Brain; kiểm raw hash và terminal indexing, sau đó recall mới. Fixture/Doctor/connection200 không chứng minh semantic retrieval hoặc thiết bị thứ hai. Sending/uncertain/raw_verified: đối chiếu chỉ đọc, không resend/re-cognify hoặc xoá receipt.
